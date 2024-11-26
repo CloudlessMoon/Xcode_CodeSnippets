@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>jsnet</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#RequestClass#&gt; *api = [[&lt;#RequestClass#&gt; alloc] init];
+[[JSNetworkProvider requestForPromiseWithConfig:api] onQueue:&lt;#Queue#&gt; then:^id _Nullable(id&lt;JSNetworkInterfaceProtocol&gt;  _Nullable value) {
+    &lt;#ResponseClass#&gt; *response = (&lt;#ResponseClass#&gt; *)value.response;
+        if (response.successful) {
+            
+        } else {
+           
+        }
+        return response;
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7C4F57A1-E1C2-4F0B-91C3-2BC3B37C1CF8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>网络请求</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
