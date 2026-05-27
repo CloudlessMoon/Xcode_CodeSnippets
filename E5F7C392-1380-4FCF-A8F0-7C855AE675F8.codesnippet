@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@available(*, unavailable, message: "use init()")</string>
+	<string>@available(*, unavailable, message: "")</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E5F7C392-1380-4FCF-A8F0-7C855AE675F8</string>
 	<key>IDECodeSnippetLanguage</key>
